@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Heading } from '../utilities'
 
 const Bookmarks = () => {
+  useEffect(() => { document.title = 'Hibatillah - Bookmarks' }, [])
+
   return (
     <div className='min-h-screen'>
       <div className="container py-20">

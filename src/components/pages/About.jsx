@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Heading } from '../utilities'
 import logo from '../../assets/logo.webp'
 
 const About = () => {
+  useEffect(() => { document.title = 'Hibatillah - About' }, [])
   const mine = [
     { 
       id: 1,

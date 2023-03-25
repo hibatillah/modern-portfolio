@@ -42,6 +42,6 @@
     @apply mx-auto px-4 md:px-8 lg:px-12;
   }
   .screen {
-    height: calc(100vh - 130.5px);
+    height: calc(100vh - 131px);
   }
 }

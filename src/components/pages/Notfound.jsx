@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Heading } from '../utilities'
 
 const Notfound = () => {
+  useEffect(() => { document.title = 'Not Found' }, [])
+
   return (
     <div className='screen'>
       <div className="container py-20 h-full grid place-items-center">

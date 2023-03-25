@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Heading } from '../utilities'
 
 const Home = () => {
+  useEffect(() => { document.title = 'Hibatillah' }, [])
+  
   return (
     <div className='screen'>
       <div className="container py-20">
