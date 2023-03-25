@@ -1,0 +1,37 @@
+[
+  { 
+    "id": 1,
+    "title": "Tech Stack", 
+    "list": [
+      { "name": "Figma", "link": "https://www.figma.com/" },
+      { "name": "HTML", "link": "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+      { "name": "CSS", "link": "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+      { "name": "JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+      { "name": "Bootstrap", "link": "https://getbootstrap.com/" },
+      { "name": "TailwindCSS", "link": "https://tailwindcss.com/" },
+      { "name": "ReactJS", "link": "https://reactjs.org/" }
+    ]
+  },
+  { 
+    "id": 2,
+    "title": "Projects", 
+    "list": [
+      { "name": "UI Design", "link": "/projects#design" },
+      { "name": "Web Development", "link": "/projects#web" },
+      { "name": "App Development", "link": "/projects#app" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Social Media", 
+    "list": [
+      { "name": "Github", "link": "https://github.com/hibatillah"},
+      { "name": "Linkedin", "link": "https://www.linkedin.com/in/m-hibatillah-hasanin-8562a2268"},
+      { "name": "Behance", "link": "https://www.behance.net/mhibatil"},
+      { "name": "Dribbble", "link": "https://dribbble.com/hibatillah"},
+      { "name": "Twitter", "link": "https://twitter.com/hbtllh"},
+      { "name": "Instagram", "link": "https://www.instagram.com/hibat.illah"},
+      { "name": "Telegram", "link": "https://t.me/hibatillahhabib"}
+    ]
+  }
+]

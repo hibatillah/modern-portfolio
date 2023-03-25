@@ -10,7 +10,7 @@ const Bookmarks = () => {
         <Heading 
             page="bookmarks"
             title="Get"
-            highlight="inspired"
+            highlight="Inspired"
             paragraph="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus sapiente recusandae enim quos aliquid molestias alias suscipit, sint animi et." 
           />
       </div>

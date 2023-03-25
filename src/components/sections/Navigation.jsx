@@ -16,7 +16,7 @@ const Navigation = () => {
         <a href="/">
           <div className="flex gap-4">
             <img src={logo} alt="hibatillah's logo" width={28} />
-            <h4 className='text-lg text-slate-200 font-bold tracking-wide'>Hibatillah</h4>
+            <h4 className='text-xl text-slate-200 font-bold tracking-wide'>Hibatillah</h4>
           </div>
         </a>
         <ul className="flex items-center">
@@ -26,7 +26,7 @@ const Navigation = () => {
                 to={item.path}
                 className={({ isActive }) => isActive ? 'text-slate-100' : 'text-slate-400'}
               >
-                <div className="px-4 py-1 rounded font-semibold hover:bg-slate-400/20 hover:text-slate-300">{item.name}</div>
+                <div className="px-4 py-1 rounded font-semibold hover:bg-slate-400/20 hover:text-slate-300 active:text-blue-500">{item.name}</div>
               </NavLink>
             </li>
           )}

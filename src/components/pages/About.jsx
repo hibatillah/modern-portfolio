@@ -1,47 +1,11 @@
 import React, { useEffect } from 'react'
 import { Heading } from '../utilities'
+import data from '../../db/footer.json'
 import logo from '../../assets/logo.webp'
 
 const About = () => {
   useEffect(() => { document.title = 'Hibatillah - About' }, [])
-  const mine = [
-    { 
-      id: 1,
-      title: 'Tech Stack', 
-      list: [
-        { name: 'Figma', link: 'https://www.figma.com/' },
-        { name: 'HTML', link: 'https://developer.mozilla.org/en-US/docs/Web/HTML' },
-        { name: 'CSS', link: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
-        { name: 'JavaScript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
-        { name: 'Bootstrap', link: 'https://getbootstrap.com/' },
-        { name: 'TailwindCSS', link: 'https://tailwindcss.com/' },
-        { name: 'ReactJS', link: 'https://reactjs.org/' }
-      ]
-    },
-    { 
-      id: 2,
-      title: 'Projects', 
-      list: [
-        { name: 'UI Design', link: '/projects#design' },
-        { name: 'Web Development', link: '/projects#web' },
-        { name: 'App Development', link: '/projects#app' },
-      ]
-    },
-    {
-      id: 3,
-      title: 'Social Media', 
-      list: [
-        { name: 'Github', link: 'https://github.com/hibatillah'},
-        { name: 'Linkedin', link: 'https://www.linkedin.com/in/m-hibatillah-hasanin-8562a2268'},
-        { name: 'Behance', link: 'https://www.behance.net/mhibatil'},
-        { name: 'Dribbble', link: 'https://dribbble.com/hibatillah'},
-        { name: 'Twitter', link: 'https://twitter.com/hbtllh'},
-        { name: 'Instagram', link: 'https://www.instagram.com/hibat.illah'},
-        { name: 'Telegram', link: 'https://t.me/hibatillahhabib'},
-      ]
-    }
-  ]
-  
+
   return (
     <>
       <div className='container py-20 space-y-6'>
@@ -59,26 +23,28 @@ const About = () => {
         </form>
       </div>
       <div className="container py-10 flex items-start gap-24 border-t border-slate-400/30">
-        <div className="flex-1 space-y-4 text-lg">
+        <div className="flex-1 flex gap-8 items-start text-lg">
           <img src={logo} alt="hibatillah's logo" width={40} />
-          <div className="text-slate-200 font-semibold">
-            <h4>M. Hibatillah Hasanin</h4>
-            <h4>Riau, Indonesia</h4>
+          <div className="space-y-4">
+            <div className="text-slate-200 font-semibold space-y-0.5">
+              <h4>M. Hibatillah Hasanin</h4>
+              <h4>Riau, Indonesia</h4>
+            </div>
+            <ul className="w-fit text-slate-400 space-y-0.5">
+              <li>
+                <a href="mailto:hibatillahhabib@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <div className='w-fit transition-all duration-300 cursor-pointer hover:text-blue-500 hover:translate-x-2'>hibatillahhabib@gmail.com</div>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/6281381800123" target="_blank" rel="noopener noreferrer">
+                  <div className='w-auto transition-all duration-300 cursor-pointer hover:text-blue-500 hover:translate-x-2'>+62 81381800123</div>
+                </a>
+              </li>
+            </ul>
           </div>
-          <ul className="w-fit text-slate-400">
-            <li>
-              <a href="mailto:hibatillahhabib@gmail.com" target="_blank" rel="noopener noreferrer">
-                <div className='w-fit'>hibatillahhabib@gmail.com</div>
-              </a>
-            </li>
-            <li>
-              <a href="https://wa.me/6281381800123" target="_blank" rel="noopener noreferrer">
-                <div className='w-auto'>+62 81381800123</div>
-              </a>
-            </li>
-          </ul>
         </div>
-        {mine.map(item =>
+        {data.map(item =>
           <div key={item.id} className="flex-none text-lg">
             <h4 className='text-white font-semibold'>{item.title}</h4>
             <ul className='text-slate-500 mt-5 space-y-1.5'>
