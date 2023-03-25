@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navigation, Footer, Home, Projects, Bookmarks, About, Notfound } from "./components";
+import { Home, Projects, Bookmarks, About, Notfound } from "./components/pages";
+import { Navigation, Footer } from "./components/sections";
 
 function App() {
   return (
