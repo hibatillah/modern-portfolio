@@ -30,7 +30,7 @@ const About = () => {
               <h4>M. Hibatillah Hasanin</h4>
               <h4>Riau, Indonesia</h4>
             </div>
-            <ul className="w-fit text-slate-400 space-y-0.5">
+            <ul className="w-fit text-slate-500 space-y-1">
               <li>
                 <a href="mailto:hibatillah21si@mahasiswa.pcr.ac.id" target="_blank" rel="noopener noreferrer">
                   <div className='w-fit transition-all duration-300 cursor-pointer hover:text-blue-500 hover:translate-x-2'>hibatillah21si@mahasiswa.pcr.ac.id</div>
@@ -38,7 +38,7 @@ const About = () => {
               </li>
               <li>
                 <a href="mailto:hibatillahhabib@gmail.com" target="_blank" rel="noopener noreferrer">
-                  <div className='w-fit transition-all duration-300 cursor-pointer hover:text-blue-500 hover:translate-x-2'>hibatillahhabib@gmail.com</div>
+                  <div className='w-auto transition-all duration-300 cursor-pointer hover:text-blue-500 hover:translate-x-2'>hibatillahhabib@gmail.com</div>
                 </a>
               </li>
               <li>

@@ -11,7 +11,7 @@ const Bookmarks = () => {
             page="bookmarks"
             title="Make it"
             highlight="easier"
-            paragraph="Get inspired from our collection of bookmarks. We have collected the best resources from around the web to help us make something amazing and improve your skills. Make the most of it, enjoy!" 
+            paragraph="Do it easier with our collection of bookmarks. We have collected many resources from around the internet to help us make something amazing and improve skills. Make the most of it, enjoy!" 
           />
       </div>
     </div>

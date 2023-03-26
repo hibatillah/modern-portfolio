@@ -16,7 +16,7 @@ const Notfound = () => {
               util="items-center text-center"
             />
             <a href="/">
-              <button className="px-6 py-2 mt-8 rounded bg-gradient-2 font-semibold text-white active:brightness-90">Back to home</button>
+              <button className="px-8 py-2 mt-8 rounded-full bg-gradient-2 font-semibold text-white active:brightness-90">Back to home</button>
             </a>
         </div>
       </div>
