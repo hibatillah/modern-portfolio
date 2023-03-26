@@ -23,7 +23,7 @@
     @apply bg-glass rounded-xl shadow-xl;
   }
   .hero-col {
-    @apply flex-[0_0_40%] h-[32%]
+    @apply flex-[0_0_40%] h-[32%] z-10;
   }
   /* background */
   .bg-gradient-1 {
@@ -45,7 +45,7 @@
   .border-label-2 {
     border: 1px solid transparent;
     border-radius: 50%;
-    background: linear-gradient(#030E21, #030E21) padding-box,
+    background: linear-gradient(transparent, transparent) padding-box,
                 linear-gradient(to bottom right, #2563eb, #7c3aed) border-box;
   }
   /* image */

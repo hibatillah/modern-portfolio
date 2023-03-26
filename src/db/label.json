@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "all"
+  },
+  {
+    "id": 2,
+    "name": "icons"
+  },
+  {
+    "id": 3,
+    "name": "illustrations"
+  },
+  {
+    "id": 4,
+    "name": "photos"
+  },
+  {
+    "id": 5,
+    "name": "mockups"
+  },
+  {
+    "id": 6,
+    "name": "pattern"
+  },
+  {
+    "id": 7,
+    "name": "inspiration"
+  },
+  {
+    "id": 8,
+    "name": "3D"
+  },
+  {
+    "id": 9,
+    "name": "typography"
+  },
+  {
+    "id": 10,
+    "name": "tools"
+  },
+  {
+    "id": 11,
+    "name": "quotes"
+  }
+]

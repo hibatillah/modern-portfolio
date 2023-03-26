@@ -36,8 +36,9 @@ const Home = () => {
             </a>
             </div>
         </div>
-        <div className="col-span-2 flex flex-wrap justify-end items-end gap-2 pb-8">
+        <div className="col-span-2 flex flex-wrap justify-end items-end gap-2 pb-8 relative">
           <Hero />
+          <span className='absolute left-10 top-1/4 z-0 w-40 aspect-square rounded-full bg-indigo-700 blur-[100px]' />
         </div>
       </div>
     </div>

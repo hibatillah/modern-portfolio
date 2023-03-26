@@ -1,8 +1,13 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Heading } from '../utilities'
+import { BookmarkCard } from '../utilities'
+import { label, bookmarks } from '../../db'
 
 const Bookmarks = () => {
   useEffect(() => { document.title = 'Hibatillah - Bookmarks' }, [])
+
+  const [activeLabel, setActiveLabel] = useState('all')
+  useEffect(() => { console.log(activeLabel) }, [activeLabel])
 
   return (
     <div className='min-h-screen'>
@@ -13,6 +18,34 @@ const Bookmarks = () => {
             highlight="easier"
             paragraph="Do it easier with our collection of bookmarks. We have collected many resources from around the internet to help us make something amazing and improve skills. Make the most of it, enjoy!" 
           />
+      </div>
+      <div className="container py-10 flex items-start border-t border-slate-400/30 relative">
+        <div className="flex-[1_1_20%] sticky top-12">
+          <h4 className='text-2xl font-bold bg-gradient-2 text-transparent bg-clip-text'>Category</h4>
+          <ul className='mt-5 flex flex-wrap gap-x-2 gap-y-3 select-none'>
+            {label.map(item =>
+              <li 
+                key={item.id} 
+                onClick={() => setActiveLabel(item.name)}
+                className={`${activeLabel === item.name ? 'bg-gradient-1' : 'bg-transparent'} px-6 pt-px pb-0.5 rounded-full border-label text-lg text-white cursor-pointer`}
+              >
+                {item.name}
+              </li>
+            )}
+          </ul>
+        </div>
+        <div className="flex-[1_1_80%] px-10">
+          <h4 className='text-2xl font-bold bg-gradient-2 text-transparent bg-clip-text capitalize'>{activeLabel}</h4>
+          <ul className='mt-5 flex flex-wrap gap-4 select-none'>
+            {bookmarks.map(item =>
+              <li>
+                <a href={item.url} target="_blank" rel="noopener noreferrer">
+                  <BookmarkCard data={item} />
+                </a>
+              </li>
+            )}
+          </ul>
+        </div>
       </div>
     </div>
   )

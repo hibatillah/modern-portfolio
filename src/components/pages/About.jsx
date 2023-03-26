@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Heading } from '../utilities'
-import data from '../../db/footer.json'
+import { footer as data } from '../../db'
 import profile from '../../assets/profile.png'
 import CV from '../../assets/docs/Hibatillah\'s CV.pdf'
 
@@ -9,28 +9,23 @@ const About = () => {
 
   return (
     <>
-      <div className='container py-20 space-y-6 grid grid-cols-3 relative'>
-        <div className="col-span-2">
-          <Heading 
-            page="about"
-            title="Let's"
-            highlight="Collaborate!"
-            paragraph="Let's team up and make something amazing! I'm always looking for collaborations. Let's get started!" 
-          />
-          <form action="#" method="post">
-            <div className="w-fit mt-10 rounded-full overflow-hidden">
-              <input type="email" name="collab" id="collab" placeholder='Enter your email' className='w-60 py-2 pl-6 pr-2 rounded-l-full focus:outline-none placeholder:text-slate-500' />
-              <button type="submit" className='py-2 pl-4 pr-6 rounded-r-full text-white font-medium bg-gradient-1 active:brightness-90'>Send</button>
-            </div>
-          </form>
-        </div>
-        <div className="col-span-1 flex justify-start items-end">
-          
-        </div>
+      <div className='container py-20 space-y-6 relative'>
+        <Heading 
+          page="about"
+          title="Let's"
+          highlight="Collaborate!"
+          paragraph="Let's team up and make something amazing! I'm always looking for collaborations. Let's get started!" 
+        />
+        <form action="#" method="post">
+          <div className="w-fit mt-10 rounded-full overflow-hidden">
+            <input type="email" name="collab" id="collab" placeholder='Enter your email' className='w-60 py-2 pl-6 pr-2 rounded-l-full focus:outline-none placeholder:text-slate-500' />
+            <button type="submit" className='py-2 pl-4 pr-6 rounded-r-full text-white font-medium bg-gradient-1 active:brightness-90'>Send</button>
+          </div>
+        </form>
         <span className='absolute right-0 bottom-0 z-0 w-60 aspect-square rounded-full bg-blue-600/50 blur-[100px]' />
       </div>
       <div className="container py-10 flex items-start gap-10 border-t border-slate-400/30">
-        <div className="flex-1 flex gap-8 items-start text-lg">
+        <div className="flex-1 flex gap-7 items-start text-lg">
           <div className="w-10 rounded-lg overflow-hidden">
             <img src={profile} alt="hibatillah's logo" className='img-cover' />
           </div>
