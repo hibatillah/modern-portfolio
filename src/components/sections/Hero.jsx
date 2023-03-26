@@ -62,7 +62,7 @@ const Hero = () => {
           </svg>
         </div>
         <div className="flex justify-between items-baseline">
-          <h2 className="text-lg font-bold text-white">Riau, Indonesia</h2>
+          <h2 className="text-lg font-bold text-white">Pekanbaru, Riau</h2>
           <h4 className="text-[10px] text-white">GMT +7</h4>
         </div>
         <span className='absolute -bottom-2/3 -left-4 w-0.5 h-24 bg-blue-600' />

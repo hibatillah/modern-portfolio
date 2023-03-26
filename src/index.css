@@ -42,6 +42,12 @@
     background: linear-gradient(#030E21, #030E21) padding-box,
                 linear-gradient(to bottom right, #14b8a6, #2563eb) border-box;
   }
+  .border-label-2 {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background: linear-gradient(#030E21, #030E21) padding-box,
+                linear-gradient(to bottom right, #2563eb, #7c3aed) border-box;
+  }
   /* image */
   .img-cover {
     @apply object-cover w-full h-full;
