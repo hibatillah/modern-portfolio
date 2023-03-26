@@ -45,7 +45,7 @@
   .border-label-2 {
     border: 1px solid transparent;
     border-radius: 50%;
-    background: linear-gradient(transparent, transparent) padding-box,
+    background: linear-gradient(#030E21, #030E21) padding-box,
                 linear-gradient(to bottom right, #2563eb, #7c3aed) border-box;
   }
   /* image */

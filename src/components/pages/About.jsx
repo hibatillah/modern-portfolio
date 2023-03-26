@@ -29,20 +29,20 @@ const About = () => {
           <div className="w-10 rounded-lg overflow-hidden">
             <img src={profile} alt="hibatillah's logo" className='img-cover' />
           </div>
-          <div className="space-y-4">
+          <div className="space-y-4 relative">
             <div className="text-slate-200 font-semibold">
-              <h4>M. Hibatillah Hasanin</h4>
-              <h4>Riau, Indonesia</h4>
+              <h4 className='z-10'>M. Hibatillah Hasanin</h4>
+              <h4 className='z-10'>Riau, Indonesia</h4>
             </div>
-            <ul className="w-fit text-slate-500">
+            <ul className="w-fit text-slate-500 z-10">
               <li>
                 <a href="mailto:hibatillah21si@mahasiswa.pcr.ac.id" target="_blank" rel="noopener noreferrer">
-                  <div className='w-fit transition-all duration-300 cursor-pointer hover:text-blue-500 hover:translate-x-2'>hibatillah21si@mahasiswa.pcr.ac.id</div>
+                  <div className='w-fit transition-all duration-300 cursor-pointer hover:text-blue-500 hover:translate-x-2 z-10'>hibatillah21si@mahasiswa.pcr.ac.id</div>
                 </a>
               </li>
               <li>
                 <a href="mailto:hibatillahhabib@gmail.com" target="_blank" rel="noopener noreferrer">
-                  <div className='w-auto transition-all duration-300 cursor-pointer hover:text-blue-500 hover:translate-x-2'>hibatillahhabib@gmail.com</div>
+                  <div className='w-auto transition-all duration-300 cursor-pointer hover:text-blue-500 hover:translate-x-2 z-10  '>hibatillahhabib@gmail.com</div>
                 </a>
               </li>
               <li>
@@ -51,15 +51,15 @@ const About = () => {
                 </a>
               </li>
             </ul>
-            <a href={CV} download="CV Hibatillah">
-              <button className='w-52 px-8 py-2 mt-5 flex flex-nowrap justify-center items-center gap-3 rounded-lg bg-gradient-2 text-lg font-semibold text-white active:brightness-90 overflow-hidden group'>
-                <div className='flex-none flex gap-2 items-center translate-x-[52%] visible opacity-100 transition-all duration-500 ease-out group-hover:-translate-x-full group-hover:invisible group-hover:opacity-0'>
+            <a href={CV} download="CV Hibatillah" className='z-10'>
+              <button className='w-52 px-8 py-2 mt-5 flex flex-nowrap justify-center items-center gap-3 rounded-lg bg-gradient-2 text-lg font-semibold text-white active:brightness-90 overflow-hidden group z-10'>
+                <div className='flex-none flex gap-2 items-center translate-x-[52%] visible opacity-100 transition-all duration-700 ease-in-out group-hover:-translate-x-full group-hover:invisible group-hover:opacity-0'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
                     <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z"/>
                   </svg>
                   <span>CV Hibatillah</span>
                 </div>
-                <div className='flex-none flex gap-3 items-center translate-x-full invisible opacity-0 transition-all duration-500 ease-out group-hover:-translate-x-[55%] group-hover:visible group-hover:opacity-100'>
+                <div className='flex-none flex gap-3 items-center translate-x-full invisible opacity-0 transition-all duration-700 ease-in-out group-hover:-translate-x-[55%] group-hover:visible group-hover:opacity-100'>
                   Download
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" class="w-6 h-6 fill-none stroke-white">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
@@ -67,6 +67,7 @@ const About = () => {
                 </div>
               </button>
             </a>
+            <span className='absolute -left-1/2 -bottom-full z-0 w-48 aspect-square rounded-full bg-teal-800 blur-[100px]' />
           </div>
         </div>
         <div className="flex-1 flex justify-evenly items-start text-lg">
