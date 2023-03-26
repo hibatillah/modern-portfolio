@@ -9,7 +9,10 @@
       { "name": "JavaScript", "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
       { "name": "Bootstrap", "link": "https://getbootstrap.com/" },
       { "name": "TailwindCSS", "link": "https://tailwindcss.com/" },
-      { "name": "ReactJS", "link": "https://reactjs.org/" }
+      { "name": "ReactJS", "link": "https://reactjs.org/" },
+      { "name": "Java", "link": "https://www.geeksforgeeks.org/java/"},
+      { "name": "PHP", "link": "https://www.geeksforgeeks.org/php-tutorials/"},
+      { "name": "Laravel", "link": "https://laravel.com/"}
     ]
   },
   { 
@@ -31,7 +34,8 @@
       { "name": "Dribbble", "link": "https://dribbble.com/hibatillah"},
       { "name": "Twitter", "link": "https://twitter.com/hbtllh"},
       { "name": "Instagram", "link": "https://www.instagram.com/hibat.illah"},
-      { "name": "Telegram", "link": "https://t.me/hibatillahhabib"}
+      { "name": "Telegram", "link": "https://t.me/hibatillahhabib"},
+      { "name": "Spotify", "link": "https://open.spotify.com/user/c3cwpdi9ex699t3fu7du6581a?si=34217734a01f4f13"}
     ]
   }
 ]

@@ -12,11 +12,11 @@ const Notfound = () => {
               page="Not Found"
               title="Something"
               highlight="went wrong"
-              paragraph="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus sapiente recusandae enim quos aliquid molestias alias suscipit." 
+              paragraph="Ouch, it looks like we couldn't find the page you were searching for. Let's get you back on track!" 
               util="items-center text-center"
             />
             <a href="/">
-              <div className="px-6 py-2 mt-8 rounded bg-gradient-2 font-semibold text-white active:brightness-90">Back to home</div>
+              <button className="px-6 py-2 mt-8 rounded bg-gradient-2 font-semibold text-white active:brightness-90">Back to home</button>
             </a>
         </div>
       </div>

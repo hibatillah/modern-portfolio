@@ -12,7 +12,7 @@ const Navigation = () => {
   
   return (
     <nav className='w-full'>
-      <div className="container pt-6 pb-4 flex justify-between items-center">
+      <div className="container pt-6 pb-4 flex justify-between items-center select-none">
         <a href="/">
           <div className="flex gap-4">
             <img src={logo} alt="hibatillah's logo" width={28} />
@@ -24,9 +24,9 @@ const Navigation = () => {
             <li key={item.id}>
               <NavLink
                 to={item.path}
-                className={({ isActive }) => isActive ? 'text-slate-100' : 'text-slate-400'}
+                className={({ isActive }) => isActive ? 'text-slate-50' : 'text-slate-400'}
               >
-                <div className="px-4 py-1 rounded font-semibold hover:bg-slate-400/20 hover:text-slate-300 active:text-blue-500">{item.name}</div>
+                <div className="px-5 py-1.5 rounded font-semibold hover:bg-slate-400/20 hover:text-slate-300 active:text-slate-100">{item.name}</div>
               </NavLink>
             </li>
           )}

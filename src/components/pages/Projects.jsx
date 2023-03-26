@@ -11,7 +11,7 @@ const Projects = () => {
             page="projects"
             title="Make some"
             highlight="Design"
-            paragraph="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus sapiente recusandae enim quos aliquid molestias alias suscipit, sint animi et." 
+            paragraph="Discover my projects! Browse through my projects adventures and see the innovative solutions I've developed. Have a look at my projects and get inspired!" 
           />
       </div>
     </div>
