@@ -29,7 +29,7 @@ const About = () => {
           <div className="w-10 rounded-lg overflow-hidden">
             <img src={profile} alt="hibatillah's logo" className='img-cover' />
           </div>
-          <div className="flex flex-col gap-4 relative">
+          <div className="flex flex-col gap-5 relative">
             <div className="text-slate-200 font-semibold">
               <h4 className='z-10'>M. Hibatillah Hasanin</h4>
               <h4 className='z-10'>Riau, Indonesia</h4>

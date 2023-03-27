@@ -5,6 +5,7 @@
 @layer base {
   body {
     background-color: #030E21;
+    /* @apply bg-slate-900 */
   }
   h1 {
     @apply text-6xl font-bold text-slate-200;
