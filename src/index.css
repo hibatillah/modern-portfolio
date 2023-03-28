@@ -4,8 +4,7 @@
 
 @layer base {
   body {
-    background-color: #030E21;
-    /* @apply bg-slate-900 */
+    @apply bg-[#030E21];
   }
   h1 {
     @apply text-6xl font-bold text-slate-200;
@@ -38,14 +37,12 @@
   }
   /* border */
   .border-label {
-    border: 1px solid transparent;
-    border-radius: 50%;
+    @apply border border-transparent rounded-full;
     background: linear-gradient(#030E21, #030E21) padding-box,
                 linear-gradient(to bottom right, #14b8a6, #2563eb) border-box;
   }
   .border-label-2 {
-    border: 1px solid transparent;
-    border-radius: 50%;
+    @apply border border-transparent rounded-full;
     background: linear-gradient(#030E21, #030E21) padding-box,
                 linear-gradient(to bottom right, #2563eb, #7c3aed) border-box;
   }

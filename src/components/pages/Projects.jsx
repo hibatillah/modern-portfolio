@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { Heading } from '../utilities'
 import { bookmarks } from '../../db'
 import { ProjectCard } from '../utilities'
@@ -20,7 +21,9 @@ const Projects = () => {
         <ul className="grid grid-cols-3 gap-5">
           {bookmarks.map(item =>
             <li className='col-span-1 p-5'>
-              <ProjectCard data={item} />
+              <Link to={`${item.id}`}>
+                <ProjectCard data={item} />
+              </Link>
             </li>
           )}
         </ul>

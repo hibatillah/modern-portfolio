@@ -2,19 +2,19 @@ import React from 'react'
 
 export const BookmarkCard = ({data}) => {
   return (
-    <div className='w-full p-5 flex items-start gap-6 rounded-xl bg-slate-50/5 backdrop-blur-lg hover:ring-1 hover:ring-slate-200/10'>
+    <div className='w-full p-5 flex items-start gap-6 rounded-xl bg-slate-800/60 backdrop-blur-lg cursor-pointer hover:bg-slate-700/40 hover:ring-1 hover:ring-slate-200/20'>
       <div className="flex-none w-12 mb-2">
         <img src={data.img} alt="bookmark's icon" className='img-contain mt-1' />
       </div>
-      <div className="flex-auto space-y-2">
-        <div className="">
-          <h3 className='text-xl font-semibold text-white'>{data.title}</h3>
-          <h4 className='text-slate-400'>{data.url}</h4>
+      <div className="flex-auto space-y-3">
+        <div className="w-full flex justify-between">
+          <div className="">
+            <h3 className='text-xl font-semibold text-white'>{data.title}</h3>
+            <h4 className='text-slate-500'>{data.path}</h4>
+          </div>
+          <div className="h-fit px-6 py-1 mt-1 rounded-full text-white bg-blue-600">{data.label}</div>
         </div>
-        <p className='text-slate-300 leading-snug'>{data.desc}</p>
-      </div>
-      <div className="flex-none">
-        <div className="px-6 py-1 mt-1 rounded-full text-white bg-blue-600">{data.label}</div>
+        <p className='leading-snug'>{data.desc}</p>
       </div>
     </div>
   )
@@ -22,11 +22,21 @@ export const BookmarkCard = ({data}) => {
 
 export const ProjectCard = () => {
   return (
-    <div className="w-full aspect-square p-4 rounded-3xl bg-slate-800/60 cursor-pointer hover:bg-slate-700/50">
-      <div className="w-full h-4/5 rounded-2xl bg-slate-700/70">
-
+    <div className="w-full aspect-square p-5 flex flex-col rounded-2xl bg-slate-800/60 cursor-pointer hover:bg-slate-700/40 group/card">
+      <div className="flex-1 rounded-xl bg-slate-700/70 relative">
+        <div className="absolute right-4 bottom-4 flex-none h-fit px-2 py-px rounded-full bg-blue-500 text-xs font-medium text-white uppercase">new</div>
       </div>
-      <h3></h3>
+      <div className="flex-none flex justify-between px-2 pt-4">
+        <div className="">
+          <div className="flex gap-3 items-baseline">
+            <h3 className='text-xl font-bold text-slate-200 group-hover/card:text-blue-500'>Educate X</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" class="w-4 h-4 hidden group-hover/card:block group-hover/card:stroke-blue-500">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </div>
+          <p className='text-sm font-medium'>Learn code website</p>
+        </div>
+      </div>
     </div>
   )
 }

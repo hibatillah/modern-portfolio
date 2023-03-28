@@ -41,6 +41,10 @@
   },
   {
     "id": 11,
+    "name": "plugins"
+  },
+  {
+    "id": 12,
     "name": "quotes"
   }
 ]
