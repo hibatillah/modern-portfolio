@@ -1,46 +1,50 @@
 [
   {
     "id": 1,
-    "name": "inspirations"
+    "name": "all"
   },
   {
     "id": 2,
-    "name": "icons"
+    "name": "inspiration"
   },
   {
     "id": 3,
-    "name": "illustrations"
+    "name": "icon"
   },
   {
     "id": 4,
-    "name": "photos"
+    "name": "illustration"
   },
   {
     "id": 5,
-    "name": "mockups"
+    "name": "photo"
   },
   {
     "id": 6,
-    "name": "pattern"
+    "name": "mockup"
   },
   {
     "id": 7,
-    "name": "typography"
+    "name": "pattern"
   },
   {
     "id": 8,
-    "name": "3D"
+    "name": "typography"
   },
   {
     "id": 9,
-    "name": "tools"
+    "name": "3D"
   },
   {
     "id": 10,
-    "name": "plugins"
+    "name": "tools"
   },
   {
     "id": 11,
+    "name": "plugin"
+  },
+  {
+    "id": 12,
     "name": "quotes"
   }
 ]

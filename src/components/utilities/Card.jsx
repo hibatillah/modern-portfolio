@@ -1,10 +1,40 @@
 import React from 'react'
 
 export const BookmarkCard = ({data}) => {
+  const labelColor = (data) => {
+    switch (data) {
+      case 'inspiration':
+        return 'bg-teal-500'
+      case 'icon':
+        return 'bg-blue-500'
+      case 'illustration':
+        return 'bg-indigo-500'
+      case 'photo':
+        return 'bg-skye-500'
+      case 'mockup':
+        return 'bg-yellow-500'
+      case 'pattern':
+        return 'bg-red-500'
+      case 'typography':
+        return 'bg-stone-500'
+      case '3D':
+        return 'bg-pink-500'
+      case 'tools':
+        return 'bg-orange-500'
+      case 'plugin':
+        return 'bg-lime-500'
+      case 'quotes':
+        return 'bg-purple-500'
+      default:
+        return 'bg-slate-500'
+    }
+  }
+  console.log(labelColor)
+  
   return (
-    <div className='w-full p-5 flex items-start gap-6 rounded-xl bg-slate-800/60 backdrop-blur-lg cursor-pointer hover:bg-slate-700/40 hover:ring-1 hover:ring-slate-200/20'>
-      <div className="flex-none w-12 mb-2">
-        <img src={data.img} alt="bookmark's icon" className='img-contain mt-1' />
+    <div className='w-full h-full p-5 flex items-start gap-6 rounded-xl bg-slate-800/60 backdrop-blur-lg cursor-pointer hover:bg-slate-700/40 hover:ring-1 hover:ring-slate-200/20'>
+      <div className="flex-none w-10 mb-2">
+        <img src={data.img} alt="bookmark's icon" className='img-contain mt-1 bg-top' />
       </div>
       <div className="flex-auto space-y-3">
         <div className="w-full flex justify-between">
@@ -12,9 +42,9 @@ export const BookmarkCard = ({data}) => {
             <h3 className='text-xl font-semibold text-white'>{data.title}</h3>
             <h4 className='text-slate-500'>{data.path}</h4>
           </div>
-          <div className="h-fit px-6 py-1 mt-1 rounded-full text-white bg-blue-600">{data.label}</div>
+          <div className={`h-fit px-6 py-1 mt-1 rounded-full font-medium text-white ${labelColor(data.label)}`}>{data.label}</div>
         </div>
-        <p className='leading-snug'>{data.desc}</p>
+        <p className='leading-snug line-clamp-2'>{data.desc}</p>
       </div>
     </div>
   )

@@ -6,10 +6,10 @@ import { label, bookmarks } from '../../db'
 const Bookmarks = () => {
   useEffect(() => { document.title = 'Hibatillah - Bookmarks' }, [])
 
-  const [activeLabel, setActiveLabel] = useState('icons')
+  const [activeLabel, setActiveLabel] = useState('all')
   useEffect(() => { console.log(activeLabel) }, [activeLabel])
   
-  const data = bookmarks.filter(item => item.label === activeLabel)
+  const data = activeLabel === 'all' ? bookmarks : bookmarks.filter(item => item.label === activeLabel)
   console.log(data)
 
   return (
@@ -22,7 +22,7 @@ const Bookmarks = () => {
             paragraph="Do it easier with our collection of bookmarks. We have collected many resources from around the internet to help us make something amazing and improve skills. Make the most of it, enjoy!" 
           />
       </div>
-      <div className="container py-10 flex items-start gap-10 border-t border-slate-400/30 relative">
+      <div className="container pt-10 pb-32 flex items-start gap-10 border-t border-slate-400/30 relative">
         <div className="flex-[1_1_20%] sticky top-12">
           <h4 className='text-2xl font-bold bg-gradient-1 text-transparent bg-clip-text'>Category</h4>
           <ul className='mt-5 flex flex-wrap gap-x-2 gap-y-3 select-none'>

@@ -1,34 +1,61 @@
 [
     {
-        "label": "inspirations",
+        "label": "inspiration",
         "list": [
             {
                 "id": 1,
                 "title": "Dribbble",
-                "label": "icons",
-                "path": "www.flaticon.com",
-                "url": "https://www.flaticon.com",
-                "img": "https://www.flaticon.com/premium-icon/icons/svg/3135/3135715.svg",
-                "desc": "Lorem ipsum dolor sit, amet "
+                "label": "inspiration",
+                "path": "www.dribbble.com",
+                "url": "https://www.dribbble.com",
+                "img": "assets/bookmarks/dribbble.png",
+                "desc": "world's leading community for creatives to share, grow, and get hired."
+            },
+            {
+                "id": 2,
+                "title": "Behance",
+                "label": "inspiration",
+                "path": "www.behance.net",
+                "url": "https://www.behance.net",
+                "img": "assets/bookmarks/behance.png",
+                "desc": "Behance is the world's largest creative network for showcasing and discovering creative work."
+            },
+            {
+                "id": 3,
+                "title": "Awwwards",
+                "label": "inspiration",
+                "path": "www.awwwards.net",
+                "url": "https://www.awwwards.net",
+                "img": "assets/bookmarks/awwwards.png",
+                "desc": "Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world."
+            },
+            {
+                "id": 4,
+                "title": "Savee",
+                "label": "inspiration",
+                "path": "www.savee.it",
+                "url": "https://www.savee.it",
+                "img": "assets/bookmarks/savee.png",
+                "desc": "The best way to save and share inspiration."
             }
         ]
     },
     {
-        "label": "icons",
+        "label": "icon",
         "list": [
             {
                 "id": 1,
                 "title": "Flaticon",
-                "label": "icons",
+                "label": "icon",
                 "path": "www.flaticon.com",
                 "url": "https://www.flaticon.com",
-                "img": "https://www.flaticon.com/premium-icon/icons/svg/3135/3135715.svg",
-                "desc": "Lorem ipsum dolor sit, amet "
+                "img": "assets/bookmarks/flaticon.png",
+                "desc": "Download Free Icons and Stickers for your projects. Images made by and for designers in PNG, SVG, EPS, PSD and CSS formats"
             },
             {
                 "id": 2,
                 "title": "Iconfinder",
-                "label": "icons",
+                "label": "icon",
                 "path": "www.iconfinder.com",
                 "url": "https://www.iconfinder.com",
                 "img": "https://www.iconfinder.com/images/iconfinder-favicon.png",
@@ -37,7 +64,7 @@
             {
                 "id": 3,
                 "title": "Iconmonstr",
-                "label": "icons",
+                "label": "icon",
                 "path": "iconmonstr.com",
                 "url": "https://iconmonstr.com",
                 "img": "https://iconmonstr.com/favicon.ico",
@@ -46,7 +73,7 @@
             {
                 "id": 4,
                 "title": "Icons8",
-                "label": "icons",
+                "label": "icon",
                 "path": "icons8.co",
                 "url": "https://icons8.co/",
                 "img": "https://icons8.com/favicon.ico",
@@ -55,7 +82,7 @@
             {
                 "id": 5,
                 "title": "The Noun Project",
-                "label": "icons",
+                "label": "icon",
                 "path": "thenounproject.com",
                 "url": "https://thenounproject.com",
                 "img": "https://thenounproject.com/favicon.ico",
@@ -64,7 +91,7 @@
             {
                 "id": 6,
                 "title": "Iconscout",
-                "label": "icons",
+                "label": "icon",
                 "path": "iconscout.com",
                 "url": "https://iconscout.com",
                 "img": "https://iconscout.com/favicon.ico",
@@ -73,7 +100,7 @@
             {
                 "id": 7,
                 "title": "Iconfinder",
-                "label": "icons",
+                "label": "icon",
                 "path": "www.iconfinder.com",
                 "url": "https://www.iconfinder.com",
                 "img": "https://www.iconfinder.com/images/iconfinder-favicon.png",
@@ -82,7 +109,7 @@
             {
                 "id": 8,
                 "title": "Google Icons",
-                "label": "icons",
+                "label": "icon",
                 "path": "fonts.google.com/icons",
                 "url": "https://fonts.google.com/icons",
                 "img": "https://fonts.gstatic.com/s/i/materialiconsoutlined/arrow_back/v6/24px.svg",
@@ -91,7 +118,7 @@
             {
                 "id": 9,
                 "title": "Bootstrap Icons",
-                "label": "icons",
+                "label": "icon",
                 "path": "icons.getbootstrap.com",
                 "url": "https://icons.getbootstrap.com",
                 "img": "https://icons.getbootstrap.com/favicon.ico",
@@ -100,7 +127,7 @@
             {
                 "id": 10,
                 "title": "Material Design Icons",
-                "label": "icons",
+                "label": "icon",
                 "path": "materialdesignicons.com",
                 "url": "https://materialdesignicons.com",
                 "img": "https://materialdesignicons.com/favicon.ico",
@@ -109,7 +136,7 @@
             {
                 "id": 11,
                 "title": "Lordicon",
-                "label": "icons",
+                "label": "icon",
                 "path": "lordicon.com",
                 "url": "https://lordicon.com",
                 "img": "https://lordicon.com/favicon.ico",
@@ -118,7 +145,7 @@
             {
                 "id": 12,
                 "title": "Iconify",
-                "label": "icons",
+                "label": "icon",
                 "path": "iconify.design",
                 "url": "https://iconify.design",
                 "img": "https://iconify.design/favicon.ico",
@@ -127,7 +154,7 @@
             {
                 "id": 13,
                 "title": "IconScout",
-                "label": "icons",
+                "label": "icon",
                 "path": "iconscout.com",
                 "url": "https://iconscout.com",
                 "img": "https://iconscout.com/favicon.ico",
@@ -136,7 +163,7 @@
             {
                 "id": 14,
                 "title": "Hero Icons",
-                "label": "icons",
+                "label": "icon",
                 "path": "heroicons.com",
                 "url": "https://heroicons.com",
                 "img": "https://heroicons.com/favicon.ico",
@@ -145,10 +172,147 @@
             {
                 "id": 15,
                 "title": "Feather Icons",
-                "label": "icons",
+                "label": "icon",
                 "path": "feathericons.com",
                 "url": "https://feathericons.com",
                 "img": "https://feathericons.com/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            }
+        ]
+    },
+    {
+        "label": "color",
+        "list": [
+            {
+                "id": 1,
+                "title": "Color Hunt",
+                "label": "color",
+                "path": "colorhunt.co",
+                "url": "https://colorhunt.co",
+                "img": "https://colorhunt.co/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            },
+            {
+                "id": 2,
+                "title": "Coolors",
+                "label": "color",
+                "path": "coolors.co",
+                "url": "https://coolors.co",
+                "img": "https://coolors.co/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            },
+            {
+                "id": 3,
+                "title": "ColorSpace",
+                "label": "color",
+                "path": "mycolor.space",
+                "url": "https://mycolor.space",
+                "img": "https://mycolor.space/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            },
+            {
+                "id": 4,
+                "title": "Mesh Gradient",
+                "label": "color",
+                "path": "meshgradient.com",
+                "url": "https://meshgradient.com",
+                "img": "https://meshgradient.com/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            },
+            {
+                "id": 5
+
+            }
+        ]
+    },
+    {
+        "label": "pattern",
+        "list": [
+            {
+                "id": 1,
+                "title": "Hero Patterns",
+                "label": "pattern",
+                "path": "www.heropatterns.com",
+                "url": "https://www.heropatterns.com",
+                "img": "https://www.heropatterns.com/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            },
+            {
+                "id": 2,
+                "title": "Sharpen Design",
+                "label": "pattern",
+                "path": "sharpen.design",
+                "url": "https://sharpen.design",
+                "img": "https://sharpen.design/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            },
+            {
+                "id": 3,
+                "title": ""
+            }
+        ]
+    },
+    {
+        "label": "typography",
+        "list": [
+            {
+                "id": 1,
+                "title": "Google Fonts",
+                "label": "typography",
+                "path": "fonts.google.com",
+                "url": "https://fonts.google.com",
+                "img": "https://fonts.google.com/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            },
+            {
+                "id": 2,
+                "title": "Type Department",
+                "label": "typography",
+                "path": "type-department.com",
+                "url": "https://type-department.com",
+                "img": "https://type-department.com/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            },
+            {
+                "id": 3,
+                "title": "Pangram Pangram",
+                "label": "typography",
+                "path": "pangrampangram.com",
+                "url": "https://pangrampangram.com",
+                "img": "https://pangrampangram.com/favicon.ico",
+                "desc": "We are dedicated to making quality typefaces that can be used in everyday designs and projects. All our fonts are free to try."
+            }
+
+        ]
+    },
+    {
+        "label": "mockup",
+        "list": [
+            {
+                "id": 1,
+                "title": "Mockup World",
+                "label": "mockup",
+                "path": "mockupworld.co",
+                "url": "https://mockupworld.co",
+                "img": "https://mockupworld.co/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            },
+            {
+                "id": 2,
+                "title": "Harmonais Visual",
+                "label": "mockup",
+                "path": "harmonaisvisual.com",
+                "url": "https://harmonaisvisual.com",
+                "img": "https://harmonaisvisual.com/favicon.ico",
+                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+            },
+            {
+                "id": 3,
+                "title": "Behance",
+                "label": "mockup",
+                "path": "behance.net",
+                "url": "https://www.behance.net/search?content=projects&sort=appreciations&time=week&search=mockup",
+                "img": "https://www.behance.net/favicon.ico",
                 "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
             }
         ]
