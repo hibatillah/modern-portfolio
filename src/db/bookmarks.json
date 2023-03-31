@@ -53,31 +53,13 @@
                 "desc": "Download Free Icons and Stickers for your projects. Images made by and for designers in PNG, SVG, EPS, PSD and CSS formats"
             },
             {
-                "id": 2,
-                "title": "Iconfinder",
-                "label": "icon",
-                "path": "www.iconfinder.com",
-                "url": "https://www.iconfinder.com",
-                "img": "https://www.iconfinder.com/images/iconfinder-favicon.png",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
-            },
-            {
-                "id": 3,
-                "title": "Iconmonstr",
-                "label": "icon",
-                "path": "iconmonstr.com",
-                "url": "https://iconmonstr.com",
-                "img": "https://iconmonstr.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
-            },
-            {
                 "id": 4,
                 "title": "Icons8",
                 "label": "icon",
                 "path": "icons8.co",
                 "url": "https://icons8.co/",
-                "img": "https://icons8.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/icons8.png",
+                "desc": "Download design elements for free: icons, photos, vector illustrations, and music for your videos."
             },
             {
                 "id": 5,
@@ -85,8 +67,8 @@
                 "label": "icon",
                 "path": "thenounproject.com",
                 "url": "https://thenounproject.com",
-                "img": "https://thenounproject.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/noun-projects.png",
+                "desc": "Noun Project has the most diverse collection of free icons and stock photos."
             },
             {
                 "id": 6,
@@ -94,8 +76,8 @@
                 "label": "icon",
                 "path": "iconscout.com",
                 "url": "https://iconscout.com",
-                "img": "https://iconscout.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/iconscout.png",
+                "desc": "Easy to use Editor for Color, Animations & Text. Works for Web, iOs, Android, TV, WatchOS. Millions of premium design assets for apps, web, slides and more."
             }, 
             {
                 "id": 7,
@@ -103,8 +85,8 @@
                 "label": "icon",
                 "path": "www.iconfinder.com",
                 "url": "https://www.iconfinder.com",
-                "img": "https://www.iconfinder.com/images/iconfinder-favicon.png",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/iconfinder.png",
+                "desc": "Iconfinder is the world's largest marketplace for icons, illustrations and 3D illustrations in SVG, AI, and PNG format."
             },
             {
                 "id": 8,
@@ -112,8 +94,8 @@
                 "label": "icon",
                 "path": "fonts.google.com/icons",
                 "url": "https://fonts.google.com/icons",
-                "img": "https://fonts.gstatic.com/s/i/materialiconsoutlined/arrow_back/v6/24px.svg",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/google font.png",
+                "desc": "Material Symbols are our newest icons consolidating over 2,803 glyphs in a single font file with a wide range of design variants."
             },
             {
                 "id": 9,
@@ -121,17 +103,8 @@
                 "label": "icon",
                 "path": "icons.getbootstrap.com",
                 "url": "https://icons.getbootstrap.com",
-                "img": "https://icons.getbootstrap.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
-            },
-            {
-                "id": 10,
-                "title": "Material Design Icons",
-                "label": "icon",
-                "path": "materialdesignicons.com",
-                "url": "https://materialdesignicons.com",
-                "img": "https://materialdesignicons.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/bootstrap-icon.png",
+                "desc": "Free, high quality, open source icon library with over 1,800 icons."
             },
             {
                 "id": 11,
@@ -139,8 +112,8 @@
                 "label": "icon",
                 "path": "lordicon.com",
                 "url": "https://lordicon.com",
-                "img": "https://lordicon.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/lordicon.png",
+                "desc": "Powerful animated icon library with 8900+ free and premium animated Lottie animations."
             },
             {
                 "id": 12,
@@ -148,17 +121,8 @@
                 "label": "icon",
                 "path": "iconify.design",
                 "url": "https://iconify.design",
-                "img": "https://iconify.design/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
-            },
-            {
-                "id": 13,
-                "title": "IconScout",
-                "label": "icon",
-                "path": "iconscout.com",
-                "url": "https://iconscout.com",
-                "img": "https://iconscout.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/iconify.png",
+                "desc": "Iconify is an open source project. Almost all parts of the project use MIT license."
             },
             {
                 "id": 14,
@@ -166,8 +130,8 @@
                 "label": "icon",
                 "path": "heroicons.com",
                 "url": "https://heroicons.com",
-                "img": "https://heroicons.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/hero-icon.jpeg",
+                "desc": "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS."
             },
             {
                 "id": 15,
@@ -175,8 +139,207 @@
                 "label": "icon",
                 "path": "feathericons.com",
                 "url": "https://feathericons.com",
-                "img": "https://feathericons.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/feather-icon.png",
+                "desc": "Feather is a collection of simply beautiful open source icons."
+            },
+            {
+                "id": 16,
+                "title": "Font Awesome",
+                "label": "icon",
+                "path": "fontawesome.com",
+                "url": "https://fontawesome.com",
+                "img": "assets/bookmarks/fontawesome.png",
+                "desc": "Font Awesome is the Internet's icon library and toolkit, used by millions of designers, developers, and content creators."
+            },
+            {
+                "id": 17,
+                "title": "Iconsax",
+                "label": "icon",
+                "path": "iconsax.io",
+                "url": "https://iconsax.io",
+                "img": "assets/bookmarks/iconsax.png",
+                "desc": "iconsax the official icons of the Vuesax framework. Download all v1.0 See vuesax framework. Download in your favorite format."
+            },
+            {
+                "id": 18,
+                "title": "Lineicons",
+                "label": "icon",
+                "path": "lineicons.com/icons",
+                "url": "https://lineicons.com/icons",
+                "img": "assets/bookmarks/lineicons.jpg",
+                "desc": "You heard it right, Lineicons Basic is completely free and offers 596 icons. You can use, embed, edit, and distribute with your personal or commercial projects."
+            }
+        ]
+    },
+    {
+        "label": "illustration",
+        "list": [
+            {
+                "id": 1,
+                "title": "Storyset",
+                "label": "illustration",
+                "path": "storyset.com",
+                "url": "https://storyset.com",
+                "img": "assets/bookmarks/storyset.png",
+                "desc": "Edit and animate all our customizable illustrations to enhance your projects totally free. Start now to be creative in our online editor."
+            },
+            {
+                "id": 2,
+                "title": "Undraw",
+                "label": "illustration",
+                "path": "undraw.co",
+                "url": "https://undraw.co",
+                "img": "assets/bookmarks/undraw.png",
+                "desc": "Open-source illustrations for any idea you can imagine and create. Better than any royalty free or stock photos."
+            },
+            {
+                "id": 3,
+                "title": "Blush Design",
+                "label": "illustration",
+                "path": "blush.design",
+                "url": "https://blush.design",
+                "img": "assets/bookmarks/blushdesign.png",
+                "desc": "Blush makes it easy to add free illustrations to your designs. Play with fully customizable graphics made by artists across the globe."
+            },
+            {
+                "id": 4,
+                "title": "Iconfinder",
+                "label": "illustration",
+                "path": "www.iconfinder.com",
+                "url": "https://www.iconfinder.com",
+                "img": "assets/bookmarks/iconfinder.png",
+                "desc": "Iconfinder is the world's largest marketplace for icons, illustrations and 3D illustrations in SVG, AI, and PNG format."
+            },
+            {
+                "id": 5,
+                "title": "Drawkit",
+                "label": "illustration",
+                "path": "drawkit.io",
+                "url": "https://drawkit.io",
+                "img": "assets/bookmarks/drawkit.png",
+                "desc": "DrawKit is a collection of free illustrations and resources for designers and developers. All illustrations are free to use for both personal and commercial projects."
+            },
+            {
+                "id": 6,
+                "title": "Humaaans",
+                "label": "illustration",
+                "path": "humaaans.com",
+                "url": "https://humaaans.com",
+                "img": "assets/bookmarks/humaaans.jpg",
+                "desc": "Mix-&-match illustrations of people with a design library for InVIsion Studio and Sketch."
+            },
+            {
+                "id": 7,
+                "title": "Open Doodles",
+                "label": "illustration",
+                "path": "www.opendoodles.com",
+                "url": "https://www.opendoodles.com",
+                "img": "assets/bookmarks/opendoodles.png",
+                "desc": "Open Doodles is a collection of free illustrations for your next project. All illustrations are free to use for both personal and commercial projects."
+            },
+            {
+                "id": 8,
+                "title": "Craftwork",
+                "label": "illustration",
+                "path": "craftwork.design",
+                "url": "https://craftwork.design",
+                "img": "assets/bookmarks/craftwork.png",
+                "desc": "Craftwork is a collection of free illustrations for your next project. All illustrations are free to use for both personal and commercial projects."
+            },
+            {
+                "id": 9,
+                "title": "Ouch",
+                "label": "illustration",
+                "path": "icons8.com/ouch",
+                "url": "https://icons8.com/ouch",
+                "img": "assets/bookmarks/ouch.png",
+                "desc": "Ouch! is a free illustration library for designers and developers. All illustrations are free to use for both personal and commercial projects."
+            },
+            {
+                "id": 10,
+                "title": "Freepik",
+                "label": "illustration",
+                "path": "freepik.com",
+                "url": "https://www.freepik.com",
+                "img": "assets/bookmarks/freepik.png",
+                "desc": "Freepik is a website that offers free vector graphics, illustrations, icons, photos, PSD, and videos. All of the content is free to use for both personal and commercial projects."
+            }
+        ]
+    },
+    {
+        "label": "photo",
+        "list": [
+            {
+                "id": 1,
+                "title": "Unsplash",
+                "label": "photo",
+                "path": "unsplash.com",
+                "url": "https://unsplash.com",
+                "img": "assets/bookmarks/unsplash.png",
+                "desc": "The internet's source of freely useable images. Powered by creators everywhere."
+            },
+            {
+                "id": 2,
+                "title": "Pexels",
+                "label": "photo",
+                "path": "pexels.com",
+                "url": "https://pexels.com",
+                "img": "assets/bookmarks/pexels.jpeg",
+                "desc": "Find the best free stock images about photos. Download all photos and use them even for commercial projects."
+            },
+            {
+                "id": 3,
+                "title": "Pixabay",
+                "label": "photo",
+                "path": "pixabay.com",
+                "url": "https://pixabay.com",
+                "img": "assets/bookmarks/pixabay.png",
+                "desc": "Over 2 million free stock photos, illustrations and vectors."
+            },
+            {
+                "id": 4,
+                "title": "StockSnap",
+                "label": "photo",
+                "path": "stocksnap.io",
+                "url": "https://stocksnap.io",
+                "img": "assets/bookmarks/stocksnap.png",
+                "desc": "The best source for free, CC0, do-what-you-want-with stock photos. Browse and download thousands of copyright-free stock images. No attribution required."
+            },
+            {
+                "id": 5,
+                "title": "Gratisography",
+                "label": "photo",
+                "path": "gratisography.com",
+                "url": "https://gratisography.com",
+                "img": "assets/bookmarks/gratisography.png",
+                "desc": "The world's quirkiest collection of free high-resolution pictures you can use on your personal and commercial projects. All completely free of copyright"
+            },
+            {
+                "id": 6,
+                "title": "Burst Shopify",
+                "label": "photo",
+                "path": "burst.shopify.com",
+                "url": "https://burst.shopify.com",
+                "img": "assets/bookmarks/burstshopify.jpg",
+                "desc": "Burst is a free stock photo platform that is powered by Shopify. Our image library includes thousands of high-resolution"
+            },
+            {
+                "id": 7,
+                "title": "Kaboompics",
+                "label": "photo",
+                "path": "kaboompics.com",
+                "url": "https://kaboompics.com",
+                "img": "assets/bookmarks/kaboompics.jpg",
+                "desc": "Our entire collection of photos derives from carefully designed and planned photoshoots, which we provide completely for free. more."
+            },
+            {
+                "id": 8,
+                "title": "iStock",
+                "label": "photo",
+                "path": "istockphoto.com",
+                "url": "https://istockphoto.com",
+                "img": "assets/bookmarks/istock.png",
+                "desc": "As the original stock content site created by creatives for creatives, we get you. You need unique images and videos"
             }
         ]
     },
@@ -189,8 +352,8 @@
                 "label": "color",
                 "path": "colorhunt.co",
                 "url": "https://colorhunt.co",
-                "img": "https://colorhunt.co/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/colorhunt.png",
+                "desc": "Discover the newest hand-picked color palettes of Color Hunt. Get color inspiration for your design and art projects."
             },
             {
                 "id": 2,
@@ -198,17 +361,8 @@
                 "label": "color",
                 "path": "coolors.co",
                 "url": "https://coolors.co",
-                "img": "https://coolors.co/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
-            },
-            {
-                "id": 3,
-                "title": "ColorSpace",
-                "label": "color",
-                "path": "mycolor.space",
-                "url": "https://mycolor.space",
-                "img": "https://mycolor.space/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/coolors.png",
+                "desc": "Generate or browse beautiful color combinations for your designs."
             },
             {
                 "id": 4,
@@ -216,12 +370,8 @@
                 "label": "color",
                 "path": "meshgradient.com",
                 "url": "https://meshgradient.com",
-                "img": "https://meshgradient.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
-            },
-            {
-                "id": 5
-
+                "img": "assets/bookmarks/meshgradient.png",
+                "desc": "Mesh is a simple way to create beautiful, unique gradients using shaders."
             }
         ]
     },
@@ -234,8 +384,8 @@
                 "label": "pattern",
                 "path": "www.heropatterns.com",
                 "url": "https://www.heropatterns.com",
-                "img": "https://www.heropatterns.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/hero-pattern.png",
+                "desc": "A collection of repeatable SVG background patterns for you to use on your web projects. Browse Patterns. Foreground color."
             },
             {
                 "id": 2,
@@ -243,12 +393,8 @@
                 "label": "pattern",
                 "path": "sharpen.design",
                 "url": "https://sharpen.design",
-                "img": "https://sharpen.design/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
-            },
-            {
-                "id": 3,
-                "title": ""
+                "img": "assets/bookmarks/sharpen.jpeg",
+                "desc": "Sharpen is a simple, elegant way to create these types of design challenges that are fairly considered for the candidate."
             }
         ]
     },
@@ -261,8 +407,26 @@
                 "label": "typography",
                 "path": "fonts.google.com",
                 "url": "https://fonts.google.com",
-                "img": "https://fonts.google.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/google font.png",
+                "desc": "Making the web more beautiful, fast, and open through great typography."
+            },
+            {
+                "id": 4,
+                "title": "Font Squirrel",
+                "label": "typography",
+                "path": "fontsquirrel.com",
+                "url": "https://fontsquirrel.com",
+                "img": "assets/bookmarks/font-squirrel.png",
+                "desc": "Font Squirrel scours the internet for high quality, legitimately free fonts."
+            },
+            {
+                "id": 5,
+                "title": "Dafont",
+                "label": "typography",
+                "path": "dafont.com",
+                "url": "https://dafont.com",
+                "img": "assets/bookmarks/dafont.png",
+                "desc": "Archive of freely downloadable fonts. Browse by alphabetical listing, by style, by author or by popularity."
             },
             {
                 "id": 2,
@@ -270,8 +434,8 @@
                 "label": "typography",
                 "path": "type-department.com",
                 "url": "https://type-department.com",
-                "img": "https://type-department.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/type-department.png",
+                "desc": "The place to shop for fonts. On Type Department you can find a carefully selected catalogue of typefaces created by the industry's global network of creatives"
             },
             {
                 "id": 3,
@@ -279,8 +443,8 @@
                 "label": "typography",
                 "path": "pangrampangram.com",
                 "url": "https://pangrampangram.com",
-                "img": "https://pangrampangram.com/favicon.ico",
-                "desc": "We are dedicated to making quality typefaces that can be used in everyday designs and projects. All our fonts are free to try."
+                "img": "assets/bookmarks/pangram.png",
+                "desc": "We are dedicated to making quality typefaces that can be used in everyday designs and projects."
             }
 
         ]
@@ -294,8 +458,8 @@
                 "label": "mockup",
                 "path": "mockupworld.co",
                 "url": "https://mockupworld.co",
-                "img": "https://mockupworld.co/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/mockupworld.jpeg",
+                "desc": "Mockup World features a large number of clean as well as photo-realistic free mockups"
             },
             {
                 "id": 2,
@@ -303,8 +467,8 @@
                 "label": "mockup",
                 "path": "harmonaisvisual.com",
                 "url": "https://harmonaisvisual.com",
-                "img": "https://harmonaisvisual.com/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/harmonais.jpeg",
+                "desc": "Harmonais Visual is an online studio found in pursuit of offering simple yet elegant and high-quality digital products for creative entrepreneurs."
             },
             {
                 "id": 3,
@@ -312,8 +476,22 @@
                 "label": "mockup",
                 "path": "behance.net",
                 "url": "https://www.behance.net/search?content=projects&sort=appreciations&time=week&search=mockup",
-                "img": "https://www.behance.net/favicon.ico",
-                "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure veritatis dolores suscipit."
+                "img": "assets/bookmarks/behance.png",
+                "desc": "Here you will download plenty of professional free PSD and Vector templates. Such as mockups, flyers, patterns, icons, cd covers, logos"
+            }
+        ]
+    },
+    {
+        "label": "3D",
+        "list": [
+            {
+                "id": 4,
+                "title": "Iconfinder",
+                "label": "3D",
+                "path": "www.iconfinder.com",
+                "url": "https://www.iconfinder.com",
+                "img": "assets/bookmarks/iconfinder.png",
+                "desc": "Iconfinder is the world's largest marketplace for icons, illustrations and 3D illustrations in SVG, AI, and PNG format."
             }
         ]
     }

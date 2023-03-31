@@ -16,7 +16,7 @@ const About = () => {
           highlight="Collaborate!"
           paragraph="Let's team up and make something amazing! I'm always looking for collaborations. Let's get started!" 
         />
-        <form action="#" method="post">
+        <form action="mailto:hibatillahhabib@gmail.com" method="post">
           <div className="w-fit mt-10 rounded-full overflow-hidden">
             <input type="email" name="collab" id="collab" placeholder='Enter your email' className='w-60 py-2 pl-6 pr-2 rounded-l-full focus:outline-none placeholder:text-slate-500' />
             <button type="submit" className='py-2 pl-4 pr-6 rounded-r-full text-white font-medium bg-gradient-1 active:brightness-90'>Send</button>

@@ -4,19 +4,21 @@ export const BookmarkCard = ({data}) => {
   const labelColor = (data) => {
     switch (data) {
       case 'inspiration':
-        return 'bg-teal-500'
+        return 'bg-teal-500/90'
       case 'icon':
-        return 'bg-blue-500'
+        return 'bg-blue-600'
       case 'illustration':
         return 'bg-indigo-500'
       case 'photo':
-        return 'bg-skye-500'
+        return 'bg-sky-500'
       case 'mockup':
-        return 'bg-yellow-500'
+        return 'bg-yellow-500/80'
       case 'pattern':
-        return 'bg-red-500'
+        return 'bg-red-600'
       case 'typography':
-        return 'bg-stone-500'
+        return 'bg-stone-600'
+      case 'color':
+        return 'bg-fuchsia-500'
       case '3D':
         return 'bg-pink-500'
       case 'tools':
@@ -32,9 +34,9 @@ export const BookmarkCard = ({data}) => {
   console.log(labelColor)
   
   return (
-    <div className='w-full h-full p-5 flex items-start gap-6 rounded-xl bg-slate-800/60 backdrop-blur-lg cursor-pointer hover:bg-slate-700/40 hover:ring-1 hover:ring-slate-200/20'>
+    <div className='w-full h-full px-5 py-4 flex items-start gap-6 rounded-xl bg-slate-800/60  cursor-pointer hover:bg-slate-800 hover:ring-1 hover:ring-slate-700/70 active:bg-slate-700/60'>
       <div className="flex-none w-10 mb-2">
-        <img src={data.img} alt="bookmark's icon" className='img-contain mt-1 bg-top' />
+        <img src={data.img} alt="bookmark's icon" className='img-contain mt-1 bg-top rounded' />
       </div>
       <div className="flex-auto space-y-3">
         <div className="w-full flex justify-between">
@@ -44,7 +46,7 @@ export const BookmarkCard = ({data}) => {
           </div>
           <div className={`h-fit px-6 py-1 mt-1 rounded-full font-medium text-white ${labelColor(data.label)}`}>{data.label}</div>
         </div>
-        <p className='leading-snug line-clamp-2'>{data.desc}</p>
+        <p className='text-base leading-snug line-clamp-2'>{data.desc}</p>
       </div>
     </div>
   )
