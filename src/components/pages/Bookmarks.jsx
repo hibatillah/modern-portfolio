@@ -6,8 +6,11 @@ import { label, bookmarks } from '../../db'
 const Bookmarks = () => {
   useEffect(() => { document.title = 'Hibatillah - Bookmarks' }, [])
 
-  const [activeLabel, setActiveLabel] = useState('all')
+  const [activeLabel, setActiveLabel] = useState('icons')
   useEffect(() => { console.log(activeLabel) }, [activeLabel])
+  
+  const data = bookmarks.filter(item => item.label === activeLabel)
+  console.log(data)
 
   return (
     <div className='min-h-screen'>
@@ -38,13 +41,14 @@ const Bookmarks = () => {
         <div className="flex-[1_1_80%]">
           <h4 className='text-2xl font-bold bg-gradient-1 text-transparent bg-clip-text capitalize'>{activeLabel}</h4>
           <ul className='mt-5 grid grid-cols-2 gap-4 select-none'>
-            {bookmarks.map(item =>
-              <li>
-                <a href={item.url} target="_blank" rel="noopener noreferrer">
-                  <BookmarkCard data={item} />
-                </a>
-              </li>
-            )}
+            {data.map(item =>
+              item.list.map(item =>
+                <li>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer">
+                    <BookmarkCard data={item} />
+                  </a>
+                </li>
+            ))}
           </ul>
         </div>
       </div>
