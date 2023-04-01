@@ -30,23 +30,23 @@ const Bookmarks = () => {
       </div>
       <div
         id="bookmarks"
-        className="container pt-10 pb-16 min-h-[80dvh] flex items-start gap-10 border-t border-slate-400/30 relative"
+        className="container relative flex min-h-[80dvh] items-start gap-10 border-t border-slate-400/30 pb-16 pt-10"
       >
-        <div className="flex-[1_1_20%] sticky top-12 z-10">
-          <h4 className="text-2xl font-bold bg-gradient-1 text-transparent bg-clip-text">
+        <div className="sticky top-12 z-10 flex-[1_1_20%]">
+          <h4 className="bg-gradient-1 bg-clip-text text-2xl font-bold text-transparent">
             Category
           </h4>
-          <ul className="mt-5 flex flex-wrap gap-x-2 gap-y-3 select-none">
+          <ul className="mt-5 flex select-none flex-wrap gap-x-2 gap-y-3">
             {label.map((item) => (
               <li
                 key={item.id}
                 onClick={() => setActiveLabel(item.name)}
-                className={`px-6 pt-px pb-0.5 rounded-full border-label text-lg text-white cursor-pointer relative overflow-hidden`}
+                className={`border-label relative cursor-pointer overflow-hidden rounded-full px-6 pb-0.5 pt-px text-lg text-white`}
               >
                 <span
                   className={`${
                     activeLabel === item.name ? "block" : "hidden"
-                  } absolute inset-0 grid place-items-center pb-px text-white bg-gradient-1 z-0`}
+                  } bg-gradient-1 absolute inset-0 z-0 grid place-items-center pb-px text-white`}
                 >
                   {item.name}
                 </span>
@@ -55,14 +55,14 @@ const Bookmarks = () => {
             ))}
           </ul>
           <div className="relative">
-            <span className="absolute -left-20 -bottom-80 z-0 w-60 aspect-square rounded-full bg-indigo-600/50 blur-[100px]" />
+            <span className="absolute -bottom-80 -left-20 z-0 aspect-square w-60 rounded-full bg-indigo-600/50 blur-[100px]" />
           </div>
         </div>
-        <div className="flex-[1_1_80%] z-10">
-          <h4 className="text-2xl font-bold bg-gradient-1 text-transparent bg-clip-text capitalize">
+        <div className="z-10 flex-[1_1_80%]">
+          <h4 className="bg-gradient-1 bg-clip-text text-2xl font-bold capitalize text-transparent">
             Bookmarks
           </h4>
-          <ul className="mt-5 grid grid-cols-2 gap-x-3.5 gap-y-4 select-none">
+          <ul className="mt-5 grid select-none grid-cols-2 gap-x-3.5 gap-y-4">
             {data.map((el) =>
               el.list.map((item) => (
                 <li key={item.id}>
@@ -74,7 +74,7 @@ const Bookmarks = () => {
             )}
           </ul>
         </div>
-        <span className="absolute right-0 -top-32 z-0 w-60 aspect-square rounded-full bg-indigo-600/50 blur-[100px]" />
+        <span className="absolute -top-32 right-0 z-0 aspect-square w-60 rounded-full bg-indigo-600/50 blur-[100px]" />
       </div>
     </div>
   );

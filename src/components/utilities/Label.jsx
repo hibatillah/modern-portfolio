@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Label = ({title}) => {
+const Label = ({ title }) => {
   return (
-    <div className='w-fit px-8 py-1 rounded-full text-sm text-white uppercase border-label tracking-wide'>{title}</div>
-  )
-}
+    <div className="border-label w-fit rounded-full px-8 py-1 text-sm uppercase tracking-wide text-white">
+      {title}
+    </div>
+  );
+};
 
-export default Label
+export default Label;

@@ -33,22 +33,22 @@ export const BookmarkCard = ({ data }) => {
   };
 
   return (
-    <div className="w-full h-full px-5 py-4 flex items-start gap-6 rounded-xl bg-slate-800/60 shadow-xl cursor-pointer hover:bg-slate-800 hover:ring-1 hover:ring-slate-700/70 active:bg-slate-700/60 active:ring-1 active:ring-slate-600">
-      <div className="flex-none w-10 mb-2">
+    <div className="flex h-full w-full cursor-pointer items-start gap-6 rounded-xl bg-slate-800/60 px-5 py-4 shadow-xl hover:bg-slate-800 hover:ring-1 hover:ring-slate-700/70 active:bg-slate-700/60 active:ring-1 active:ring-slate-600">
+      <div className="mb-2 w-10 flex-none">
         <img
           src={data.img}
           alt={`${data.name}'s icon`}
-          className="img-contain mt-1 bg-top rounded"
+          className="img-contain mt-1 rounded bg-top"
         />
       </div>
       <div className="flex-auto space-y-3">
-        <div className="w-full flex justify-between">
+        <div className="flex w-full justify-between">
           <div className="">
             <h3 className="text-xl font-semibold text-white">{data.title}</h3>
             <h4 className="text-slate-500">{data.path}</h4>
           </div>
           <div
-            className={`h-fit px-6 py-1 mt-1 rounded-full text-sm font-medium text-white ${labelColor(
+            className={`mt-1 h-fit rounded-full px-6 py-1 text-sm font-medium text-white ${labelColor(
               data.label
             )}`}
           >
@@ -63,15 +63,15 @@ export const BookmarkCard = ({ data }) => {
 
 export const ProjectCard = () => {
   return (
-    <div className="w-full aspect-square p-5 flex flex-col rounded-2xl bg-slate-800/60 cursor-pointer hover:bg-slate-700/40 group/card">
-      <div className="flex-1 rounded-xl bg-slate-700/70 relative">
-        <div className="absolute right-4 bottom-4 flex-none h-fit px-2 py-px rounded-full bg-blue-500 text-xs font-medium text-white uppercase">
+    <div className="group/card flex aspect-square w-full cursor-pointer flex-col rounded-2xl bg-slate-800/60 p-5 hover:bg-slate-700/40">
+      <div className="relative flex-1 rounded-xl bg-slate-700/70">
+        <div className="absolute bottom-4 right-4 h-fit flex-none rounded-full bg-blue-500 px-2 py-px text-xs font-medium uppercase text-white">
           new
         </div>
       </div>
-      <div className="flex-none flex justify-between px-2 pt-4">
+      <div className="flex flex-none justify-between px-2 pt-4">
         <div className="">
-          <div className="flex gap-3 items-baseline">
+          <div className="flex items-baseline gap-3">
             <h3 className="text-xl font-bold text-slate-200 group-hover/card:text-blue-500">
               Educate X
             </h3>
@@ -79,7 +79,7 @@ export const ProjectCard = () => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               stroke-width="1.5"
-              class="w-4 h-4 hidden group-hover/card:block group-hover/card:stroke-blue-500"
+              class="hidden h-4 w-4 group-hover/card:block group-hover/card:stroke-blue-500"
             >
               <path
                 stroke-linecap="round"

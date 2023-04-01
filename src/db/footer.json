@@ -1,122 +1,122 @@
 [
-  { 
+  {
     "id": 1,
-    "title": "Tech Stack", 
+    "title": "Tech Stack",
     "list": [
-      { 
-        "name": "Figma", 
-        "link": "https://www.figma.com/" 
+      {
+        "name": "Figma",
+        "link": "https://www.figma.com/"
       },
       {
-        "name": "Photoshop", 
-        "link": "https://www.adobe.com/id_en/products/photoshop.html" 
+        "name": "Photoshop",
+        "link": "https://www.adobe.com/id_en/products/photoshop.html"
       },
-      { 
-        "name": "HTML", 
-        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML" 
+      {
+        "name": "HTML",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
       },
-      { 
-        "name": "CSS", 
-        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS" 
+      {
+        "name": "CSS",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
       },
-      { 
-        "name": "JavaScript", 
-        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" 
+      {
+        "name": "JavaScript",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       },
-      { 
-        "name": "Bootstrap", 
-        "link": "https://getbootstrap.com/" 
+      {
+        "name": "Bootstrap",
+        "link": "https://getbootstrap.com/"
       },
-      { 
-        "name": "TailwindCSS", 
-        "link": "https://tailwindcss.com/" 
+      {
+        "name": "TailwindCSS",
+        "link": "https://tailwindcss.com/"
       },
-      { 
-        "name": "ReactJS", 
-        "link": "https://reactjs.org/" 
+      {
+        "name": "ReactJS",
+        "link": "https://reactjs.org/"
       },
-      { 
-        "name": "Java", 
+      {
+        "name": "Java",
         "link": "https://www.geeksforgeeks.org/java/"
       },
-      { 
-        "name": "Python", 
+      {
+        "name": "Python",
         "link": "https://www.geeksforgeeks.org/python-programming-language/"
       },
-      { 
-        "name": "PHP", 
+      {
+        "name": "PHP",
         "link": "https://www.geeksforgeeks.org/php-tutorials/"
       },
-      { 
-        "name": "Laravel", 
+      {
+        "name": "Laravel",
         "link": "https://laravel.com/"
       },
-      { 
-        "name": "MySQL", 
+      {
+        "name": "MySQL",
         "link": "https://dev.mysql.com/doc/"
       },
       {
-        "name": "Oracle", 
+        "name": "Oracle",
         "link": "https://www.oracle.com/database/"
       }
     ]
   },
-  { 
+  {
     "id": 2,
-    "title": "Projects", 
+    "title": "Projects",
     "list": [
-      { 
-        "name": "UI Design", 
-        "link": "/projects#design" 
+      {
+        "name": "UI Design",
+        "link": "/projects#design"
       },
-      { 
-        "name": "Web Development", 
-        "link": "/projects#web" 
+      {
+        "name": "Web Development",
+        "link": "/projects#web"
       },
-      { 
-        "name": "App Development", 
+      {
+        "name": "App Development",
         "link": "/projects#app"
       }
     ]
   },
   {
     "id": 3,
-    "title": "Social Media", 
+    "title": "Social Media",
     "list": [
-      { 
-        "name": "Github", 
+      {
+        "name": "Github",
         "link": "https://github.com/hibatillah"
       },
-      { 
-        "name": "Linkedin", 
+      {
+        "name": "Linkedin",
         "link": "https://www.linkedin.com/in/m-hibatillah-hasanin-8562a2268"
       },
-      { 
-        "name": "Behance", 
+      {
+        "name": "Behance",
         "link": "https://www.behance.net/mhibatil"
       },
-      { 
-        "name": "Dribbble", 
+      {
+        "name": "Dribbble",
         "link": "https://dribbble.com/hibatillah"
       },
       {
-        "name": "Figma", 
+        "name": "Figma",
         "link": "https://figma.com/@hibatillah"
       },
-      { 
-        "name": "Twitter", 
+      {
+        "name": "Twitter",
         "link": "https://twitter.com/hbtllh"
       },
-      { 
-        "name": "Instagram", 
+      {
+        "name": "Instagram",
         "link": "https://www.instagram.com/hibat.illah"
       },
-      { 
-        "name": "Telegram", 
+      {
+        "name": "Telegram",
         "link": "https://t.me/hibatillahhabib"
       },
-      { 
-        "name": "Spotify", 
+      {
+        "name": "Spotify",
         "link": "https://open.spotify.com/user/c3cwpdi9ex699t3fu7du6581a?si=34217734a01f4f13"
       }
     ]
