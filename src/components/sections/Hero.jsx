@@ -10,7 +10,7 @@ const Hero = () => {
       </div>
       <div
         id="design"
-        className="hero-col hero-card relative flex flex-col items-center justify-between self-end bg-blue-700 p-3 shadow-md shadow-blue-900"
+        className="hero-col hero-card relative flex flex-col items-center justify-between self-end bg-blue-700 p-3"
       >
         <div className="z-10 flex w-full items-start justify-between">
           <h4 className="text-xs text-white">Project</h4>
@@ -98,7 +98,7 @@ const Hero = () => {
       </div>
       <div
         id="address"
-        className="hero-col hero-card relative flex h-[15%] flex-col justify-between self-start bg-indigo-700 px-2.5 pb-1 pt-2 shadow-md shadow-indigo-900"
+        className="hero-col hero-card relative flex h-[15%] flex-col justify-between self-start bg-indigo-700 px-2.5 pb-1 pt-2"
       >
         <div className="flex items-start justify-between">
           <h4 className="text-xs text-white">Indonesia</h4>
@@ -123,7 +123,7 @@ const Hero = () => {
       </div>
       <div
         id="app"
-        className="hero-col hero-card relative flex flex-col items-center justify-between self-start bg-teal-500/90 p-3 shadow-md shadow-teal-900"
+        className="hero-col hero-card relative flex flex-col items-center justify-between self-start bg-teal-500/90 p-3"
       >
         <div className="flex w-full items-start justify-between">
           <h4 className="text-xs text-white">Project</h4>

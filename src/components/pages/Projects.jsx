@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Heading } from "../utilities";
-import { bookmarks } from "../../db";
+import { projects } from "../../db";
 import { ProjectCard } from "../utilities";
 
 const Projects = () => {
@@ -21,10 +21,13 @@ const Projects = () => {
       </div>
       <div className="container relative border-t border-slate-400/30 py-10">
         <ul className="grid grid-cols-3 gap-5">
-          {bookmarks.map((item) => (
+          {projects.map((item) => (
             <li className="col-span-1 p-5">
-              <Link to={`${item.id}`}>
-                <ProjectCard data={item} />
+              <Link 
+                key={item.id}
+                to={`desc/${item.id}`}
+              >
+                <ProjectCard project={item} />
               </Link>
             </li>
           ))}

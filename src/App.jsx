@@ -3,29 +3,27 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {
   Home,
   Projects,
-  ProjectDesc,
+  ProjectDetail,
   Bookmarks,
   About,
   Notfound,
 } from "./components/pages";
 import { Navigation, Footer } from "./components/sections";
+import { projects } from "./db";
 
 function App() {
-  const project = {
-    name: "Educate X",
-    tech: ["ReactJS", "TailwindCSS"],
-  };
-
   return (
     <Router>
       <Navigation />
       <Routes>
         <Route index element={<Home />} />
         <Route path="projects" element={<Projects />} />
-        <Route
-          path="projects/desc"
-          element={<ProjectDesc project={project} />}
-        />
+        {projects.map((item) => (
+          <Route
+            path={`projects/desc/${item.id}`}
+            element={<ProjectDetail project={item} />}
+          />
+        ))}
         <Route path="bookmarks" element={<Bookmarks />} />
         <Route path="about" element={<About />} />
         <Route path="*" element={<Notfound />} />

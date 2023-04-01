@@ -61,19 +61,20 @@ export const BookmarkCard = ({ data }) => {
   );
 };
 
-export const ProjectCard = () => {
+export const ProjectCard = ({project}) => {
   return (
     <div className="group/card flex aspect-square w-full cursor-pointer flex-col rounded-2xl bg-slate-800/60 p-5 hover:bg-slate-700/40">
-      <div className="relative flex-1 rounded-xl bg-slate-700/70">
+      <div className="relative flex-1 rounded-lg bg-slate-700/70 overflow-hidden">
+        <img src={project.img} alt="preview project" className="img-cover brightness-90" />
         <div className="absolute bottom-4 right-4 h-fit flex-none rounded-full bg-blue-500 px-2 py-px text-xs font-medium uppercase text-white">
           new
         </div>
       </div>
       <div className="flex flex-none justify-between px-2 pt-4">
-        <div className="">
+        <div className="space-y-1">
           <div className="flex items-baseline gap-3">
             <h3 className="text-xl font-bold text-slate-200 group-hover/card:text-blue-500">
-              Educate X
+              {project.name}
             </h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +89,7 @@ export const ProjectCard = () => {
               />
             </svg>
           </div>
-          <p className="text-sm font-medium">Learn code website</p>
+          <p className="text-sm font-medium line-clamp-1">{project.short}</p>
         </div>
       </div>
     </div>

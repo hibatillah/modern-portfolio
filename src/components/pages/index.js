@@ -1,8 +1,8 @@
 import Home from "./Home";
 import Projects from "./Projects";
-import ProjectDesc from "./ProjectDesc";
+import ProjectDetail from "./ProjectDetail";
 import Bookmarks from "./Bookmarks";
 import About from "./About";
 import Notfound from "./Notfound";
 
-export { Home, Projects, ProjectDesc, Bookmarks, About, Notfound };
+export { Home, Projects, ProjectDetail, Bookmarks, About, Notfound };

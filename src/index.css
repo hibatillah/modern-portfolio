@@ -10,7 +10,7 @@
     @apply text-6xl font-bold text-slate-200;
   }
   p {
-    @apply text-slate-400 lg:text-lg;
+    @apply text-slate-400 lg:text-lg lg:tracking-wide lg:leading-relaxed;
   }
   a {
     @apply hover:text-blue-500;

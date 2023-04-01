@@ -55,7 +55,7 @@ const Bookmarks = () => {
             ))}
           </ul>
           <div className="relative">
-            <span className="absolute -bottom-80 -left-20 z-0 aspect-square w-60 rounded-full bg-indigo-600/50 blur-[100px]" />
+            <span className="absolute -bottom-64 -left-20 z-0 aspect-square w-60 rounded-full bg-indigo-600/50 blur-[100px]" />
           </div>
         </div>
         <div className="z-10 flex-[1_1_80%]">
