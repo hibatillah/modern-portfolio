@@ -13,7 +13,10 @@ const Bookmarks = () => {
     console.log("active label: " + activeLabel);
   }, [activeLabel]);
 
-  const data = activeLabel === "all" ? bookmarks : bookmarks.filter(item => item.label === activeLabel);
+  const data =
+    activeLabel === "all"
+      ? bookmarks
+      : bookmarks.filter((item) => item.label === activeLabel);
 
   return (
     <div className="min-h-screen">
@@ -60,8 +63,8 @@ const Bookmarks = () => {
             Bookmarks
           </h4>
           <ul className="mt-5 grid grid-cols-2 gap-x-3.5 gap-y-4 select-none">
-            {data.map(el =>
-              el.list.map(item => (
+            {data.map((el) =>
+              el.list.map((item) => (
                 <li key={item.id}>
                   <a href={item.url} target="_blank" rel="noopener noreferrer">
                     <BookmarkCard data={item} />
