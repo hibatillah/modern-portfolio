@@ -1,7 +1,7 @@
 ## Hi i'm [Hibatillah](https://github.com/hibatillah) 👋
 
 I'm UI Designer and FrontEnd Developer, interested in Design.<br>
-Student majoring Information System from Riau, Indonesia. Here is my [portfolio](https://hibatillah.github.io/portfolio).
+Student majoring Information System from Riau, Indonesia. Here is my [portfolio](https://hibatillah.vercel.app)
 
 ### Portfolio project
 
