@@ -6,7 +6,7 @@
         "id": 1,
         "title": "Dribbble",
         "label": "inspiration",
-        "path": "www.dribbble.com",
+        "path": "dribbble.com",
         "url": "https://www.dribbble.com",
         "img": "assets/bookmarks/dribbble.png",
         "desc": "world's leading community for creatives to share, grow, and get hired."
@@ -15,7 +15,7 @@
         "id": 2,
         "title": "Behance",
         "label": "inspiration",
-        "path": "www.behance.net",
+        "path": "behance.net",
         "url": "https://www.behance.net",
         "img": "assets/bookmarks/behance.png",
         "desc": "Behance is the world's largest creative network for showcasing and discovering creative work."
@@ -24,7 +24,7 @@
         "id": 3,
         "title": "Awwwards",
         "label": "inspiration",
-        "path": "www.awwwards.net",
+        "path": "awwwards.net",
         "url": "https://www.awwwards.net",
         "img": "assets/bookmarks/awwwards.png",
         "desc": "Website Awards that recognize and promote the talent and effort of the best developers, designers and web agencies in the world."
@@ -33,7 +33,7 @@
         "id": 4,
         "title": "Savee",
         "label": "inspiration",
-        "path": "www.savee.it",
+        "path": "savee.it",
         "url": "https://www.savee.it",
         "img": "assets/bookmarks/savee.png",
         "desc": "The best way to save and share inspiration."
@@ -56,7 +56,7 @@
         "id": 1,
         "title": "Flaticon",
         "label": "icon",
-        "path": "www.flaticon.com",
+        "path": "flaticon.com",
         "url": "https://www.flaticon.com",
         "img": "assets/bookmarks/flaticon.png",
         "desc": "Download Free Icons and Stickers for your projects. Images made by and for designers in PNG, SVG, EPS, PSD and CSS formats"
@@ -92,7 +92,7 @@
         "id": 7,
         "title": "Iconfinder",
         "label": "icon",
-        "path": "www.iconfinder.com",
+        "path": "iconfinder.com",
         "url": "https://www.iconfinder.com",
         "img": "assets/bookmarks/iconfinder.png",
         "desc": "Iconfinder is the world's largest marketplace for icons, illustrations and 3D illustrations in SVG, AI, and PNG format."
@@ -214,7 +214,7 @@
         "id": 4,
         "title": "Iconfinder",
         "label": "illustration",
-        "path": "www.iconfinder.com",
+        "path": "iconfinder.com",
         "url": "https://www.iconfinder.com",
         "img": "assets/bookmarks/iconfinder.png",
         "desc": "Iconfinder is the world's largest marketplace for icons, illustrations and 3D illustrations in SVG, AI, and PNG format."
@@ -241,7 +241,7 @@
         "id": 7,
         "title": "Open Doodles",
         "label": "illustration",
-        "path": "www.opendoodles.com",
+        "path": "opendoodles.com",
         "url": "https://www.opendoodles.com",
         "img": "assets/bookmarks/opendoodles.png",
         "desc": "Open Doodles is a collection of free illustrations for your next project. All illustrations are free to use for both personal and commercial projects."
@@ -397,7 +397,7 @@
         "label": "color",
         "path": "happyhues.co",
         "url": "https://happyhues.co",
-        "img": "assets/bookmarks/happyhues.avif",
+        "img": "assets/bookmarks/happyhues.png",
         "desc": "Happy Hues is a color palette inspiration site that acts as a real world example as to how the colors could be used in your design projects."
       }
     ]
@@ -409,7 +409,7 @@
         "id": 1,
         "title": "Hero Patterns",
         "label": "pattern",
-        "path": "www.heropatterns.com",
+        "path": "heropatterns.com",
         "url": "https://www.heropatterns.com",
         "img": "assets/bookmarks/hero-pattern.png",
         "desc": "A collection of repeatable SVG background patterns for you to use on your web projects. Browse Patterns. Foreground color."
@@ -599,7 +599,7 @@
         "id": 6,
         "title": "Ls graphics",
         "label": "mockup",
-        "path": "www.ls.graphics/free-mockups",
+        "path": "ls.graphics/free-mockups",
         "url": "https://www.ls.graphics/free-mockups",
         "img": "assets/bookmarks/lsgraphics.png",
         "desc": "Exclusive and highest quality mockups for Photoshop, Sketch, XD, Figma."
@@ -658,7 +658,7 @@
         "id": 4,
         "title": "Iconfinder",
         "label": "3D",
-        "path": "www.iconfinder.com",
+        "path": "iconfinder.com",
         "url": "https://www.iconfinder.com",
         "img": "assets/bookmarks/iconfinder.png",
         "desc": "Iconfinder is the world's largest marketplace for icons, illustrations and 3D illustrations in SVG, AI, and PNG format."

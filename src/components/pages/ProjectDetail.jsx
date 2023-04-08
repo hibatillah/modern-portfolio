@@ -46,7 +46,7 @@ const ProjectDetail = ({ project }) => {
               ))}
             </ul>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-5">
             {project.demo && (
               <a href={project.demo} target="_blank" rel="noopener noreferrer">
                 <button className="bg-gradient-1 group/demo flex items-baseline gap-3 rounded-lg px-6 py-[9px] text-lg font-medium text-slate-100 hover:text-white active:brightness-95">
@@ -72,7 +72,7 @@ const ProjectDetail = ({ project }) => {
             )}
             {project.repo && (
               <a href={project.repo} target="_blank" rel="noopener noreferrer">
-                <button className="border-label group/code flex items-center gap-2 rounded-lg py-2 pl-5 pr-4 text-lg text-slate-200 hover:text-white active:brightness-95">
+                <button className="border-label group/code flex items-center gap-2 rounded-lg py-2 pl-6 pr-4 text-lg text-slate-200 hover:text-white active:brightness-95">
                   <span className="translate-x-2.5 transition-all duration-300 group-hover/code:translate-x-0">
                     Get Code
                   </span>

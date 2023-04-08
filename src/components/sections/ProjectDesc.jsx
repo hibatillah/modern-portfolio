@@ -26,7 +26,8 @@ const ProjectDesc = ({ project }) => {
           <ul className="space-y-3 text-lg font-medium text-slate-300">
             {project.tech.map((item) => (
               <li>
-                {item.name} v{item.version}
+                {item.name}
+                <span className="text-slate-400"> v{item.version}</span>
               </li>
             ))}
           </ul>
