@@ -13,7 +13,7 @@ const Hero = () => {
         className="hero-col hero-card relative flex flex-col items-center justify-between self-end bg-blue-700 p-3"
       >
         <div className="z-10 flex w-full items-start justify-between">
-          <h4 className="text-xs text-white">Project</h4>
+          <h4 className="text-sm text-white">Project</h4>
         </div>
         <div className="z-10 flex w-full items-end justify-between">
           <h2 className="text-xl font-bold text-white">UI UX</h2>
@@ -71,7 +71,7 @@ const Hero = () => {
         className="hero-col hero-card relative flex flex-col items-center justify-between p-3"
       >
         <div className="flex w-full items-start justify-between">
-          <h4 className="text-xs text-white">Project</h4>
+          <h4 className="text-sm text-white">Project</h4>
         </div>
         <div className="flex w-full items-end justify-between">
           <h2 className="text-xl font-bold leading-tight text-white">
@@ -124,7 +124,7 @@ const Hero = () => {
         className="hero-col hero-card relative flex flex-col items-center justify-between self-start bg-teal-500/90 p-3"
       >
         <div className="flex w-full items-start justify-between">
-          <h4 className="text-xs text-white">Project</h4>
+          <h4 className="text-sm text-white">Project</h4>
         </div>
         <div className="flex w-full items-end justify-between">
           <h2 className="text-xl font-bold leading-tight text-white">
