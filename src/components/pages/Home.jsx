@@ -16,7 +16,7 @@ const Home = () => {
             page="portfolio"
             title="I'm a UI Designer & FrontEnd Developer,"
             highlight="M. Hibatillah"
-            paragraph="Student majoring Information System, interested in design. I'm passionate about creating various design. Get to know me better."
+            paragraph="Student majoring Information System, passionate on Web Development and love to Design."
           />
           <div className="mt-8 flex w-fit items-center gap-4">
             <Link to="projects">

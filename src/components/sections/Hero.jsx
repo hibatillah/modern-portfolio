@@ -16,7 +16,7 @@ const Hero = () => {
           <h4 className="text-xs text-white">Project</h4>
         </div>
         <div className="z-10 flex w-full items-end justify-between">
-          <h2 className="text-xl font-bold text-white">UI Design</h2>
+          <h2 className="text-xl font-bold text-white">UI UX</h2>
           <Link to="projects#design">
             <div className="group grid aspect-square w-10 place-items-center rounded-full border-2 border-white">
               <svg
@@ -75,9 +75,7 @@ const Hero = () => {
         </div>
         <div className="flex w-full items-end justify-between">
           <h2 className="text-xl font-bold leading-tight text-white">
-            Web
-            <br />
-            Development
+            Web Design
           </h2>
           <Link to="projects#web">
             <div className="group grid aspect-square w-10 place-items-center rounded-full border-2 border-slate-200">
@@ -130,7 +128,7 @@ const Hero = () => {
         </div>
         <div className="flex w-full items-end justify-between">
           <h2 className="text-xl font-bold leading-tight text-white">
-            App
+            Web
             <br />
             Development
           </h2>

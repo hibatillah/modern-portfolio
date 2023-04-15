@@ -23,15 +23,13 @@ const Projects = () => {
         <ul className="grid grid-cols-3 gap-5">
           {projects.map((item) => (
             <li className="col-span-1 p-5">
-              <Link 
-                key={item.id}
-                to={`desc/${item.id}`}
-              >
+              <Link key={item.id} to={`desc/${item.id}`}>
                 <ProjectCard project={item} />
               </Link>
             </li>
           ))}
         </ul>
+        <span className="0 absolute -top-10 right-2 z-0 aspect-square w-60 rounded-full bg-indigo-600/50 blur-[100px]" />
       </div>
     </div>
   );

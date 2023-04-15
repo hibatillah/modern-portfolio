@@ -16,7 +16,7 @@ const About = () => {
           page="about"
           title="Let's"
           highlight="Collaborate!"
-          paragraph="Let's team up and make something amazing! I'm always looking for collaborations. Let's get started!"
+          paragraph="Endlessly looking for collaborations, team up and make something amazing!"
         />
         <form action="mailto:hibatillahhabib@gmail.com" method="post">
           <div className="mt-10 w-fit overflow-hidden rounded-full">
