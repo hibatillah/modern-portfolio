@@ -39,7 +39,7 @@ const Home = () => {
               </button>
             </Link>
             <a
-              href="https://drive.google.com/file/d/1-1VmjgKE1JAtnofOF1U2s12Es3tCZWAi/view?usp=sharing"
+              href="https://read.cv/hibatillah"
               target="_blank"
               rel="noopener noreferrer"
             >

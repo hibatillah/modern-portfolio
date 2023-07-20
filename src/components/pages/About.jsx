@@ -37,8 +37,8 @@ const About = () => {
         </form>
         <span className="absolute bottom-0 right-0 z-0 aspect-square w-60 rounded-full bg-blue-600/50 blur-[100px]" />
       </div>
-      <div className="container flex items-start gap-10 border-t border-slate-400/30 py-10">
-        <div className="flex flex-1 items-start gap-6 text-lg">
+      <div className="container grid grid-cols-2 items-start gap-10 border-t border-slate-400/30 py-10">
+        <div className="flex items-start gap-6 text-lg">
           <div className="w-10 overflow-hidden rounded-lg">
             <img src={profile} alt="hibatillah's logo" className="img-cover" />
           </div>
@@ -82,42 +82,10 @@ const About = () => {
                 </a>
               </li>
             </ul>
-            <a href={CV} download="CV Hibatillah" className="w-fit">
-              <button className="bg-gradient-2 group z-10 flex w-52 flex-nowrap items-center justify-center gap-3 overflow-hidden rounded-lg px-8 py-2 text-lg font-semibold text-white active:brightness-90">
-                <div className="visible flex flex-none translate-x-[52%] items-center gap-2 opacity-100 transition-all duration-700 ease-in-out group-hover:invisible group-hover:-translate-x-full group-hover:opacity-0">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-file-earmark-text-fill"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM4.5 9a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM4 10.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 1 0-1h4a.5.5 0 0 1 0 1h-4z" />
-                  </svg>
-                  <span>CV Hibatillah</span>
-                </div>
-                <div className="invisible flex flex-none translate-x-full items-center gap-3 opacity-0 transition-all duration-700 ease-in-out group-hover:visible group-hover:-translate-x-[55%] group-hover:opacity-100">
-                  Download
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    class="h-6 w-6 fill-none stroke-white"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                    />
-                  </svg>
-                </div>
-              </button>
-            </a>
             <span className="absolute -bottom-full -left-1/2 z-0 aspect-square w-48 rounded-full bg-teal-800 blur-[100px]" />
           </div>
         </div>
-        <div className="flex flex-1 items-start justify-evenly text-lg">
+        <div className="flex items-start justify-around text-lg">
           {data.map((item) => (
             <div key={item.id} className="flex-none">
               <h4 className="font-semibold text-white">{item.title}</h4>
